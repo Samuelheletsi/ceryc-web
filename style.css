@@ -124,6 +124,13 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+.row img{
+    max-width: 60%;
+    width: 50%;
+    height: 60vh;
+    line-height: 1.%;
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
