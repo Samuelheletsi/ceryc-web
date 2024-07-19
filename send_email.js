@@ -1,6 +1,6 @@
 
         (function(){
-            emailjs.init("x6fOX9qL8iM0k4Kpz"); // Replace with your user ID from EmailJS
+            emailjs.init(""); // Replace with your user ID from EmailJS
         })();
         
         document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -10,7 +10,7 @@
             const message = document.getElementById('message').value;
             const name = document.getElementById('name').value;
 
-            emailjs.send("service_kq819bi", "template_6sbz846", {
+            emailjs.send("service_1m5dot9", "template_lks6pak", {
                 from_email: email,
                 message: message,
                 to_name:name,
