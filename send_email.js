@@ -6,8 +6,8 @@
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
             const name = document.getElementById('name').value;
 
             emailjs.send("service_1m5dot9", "template_lks6pak", {
