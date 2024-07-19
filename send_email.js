@@ -1,7 +1,5 @@
 
-        (function(){
-            emailjs.init(""); // Replace with your user ID from EmailJS
-        })();
+    
         
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
