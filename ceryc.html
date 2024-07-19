@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royalties Youth Church</title>
     <link rel="stylesheet" href="style.css">
-    <script > 
-          (function(){
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script>
+        (function() {
             emailjs.init("5I0HNcM5YVwIMv54V"); // Replace with your user ID from EmailJS
         })();
-        
     </script>
 </head>
 <body>
@@ -26,7 +26,6 @@
     </header>
 
     <section id="home" class="hero">
-        <!-- Video background -->
         <div class="video-container">
             <video autoplay muted loop playsinline id="video-bg">
                 <source src="img/camp-vid.mp4" type="video/mp4">
@@ -34,8 +33,6 @@
             </video>
             <div class="overlay"></div>
         </div>
-
-        <!-- Content -->
         <div class="hero-content">
             <h1>Welcome to <span>Royalties Youth Church</span></h1>
             <p>Join us in worship and community</p>
@@ -119,10 +116,10 @@
         <div class="container">
             <h2>Contact Us</h2>
             <p>Have questions or want to get involved? Reach out to us!</p>
-            <form action="mailto:samuelheletsi@gmail.com" method="post" class="contact-form">
-                <input type="text" name="name"  id="name" placeholder="Your Name" required>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
                 <input type="email" name="email" id="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" id="message"  placeholder="Your Message" required></textarea>
+                <textarea name="message" rows="5" id="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
@@ -135,7 +132,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script src="send_email.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 </body>
 </html>
